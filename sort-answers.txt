@@ -1,0 +1,24 @@
+sort1 uses: bubble sort
+
+How do you know?:
+Bubble Sort and Selection Sort both have O(n^2), so
+Sort 1 and Sort 3 look similar until you get to the already
+sorted files - sorted50000.txt runs at .548 on Sort 1 and
+3.318 on Sort 3. The Bubble Sort has Ω(n) compared to Ω(n^2) for
+Selection Sort, so Bubble Sort would be faster on an already
+sorted array.
+
+sort2 uses: merge sort
+
+How do you know?:
+Sort 2 is significantly faster than both
+Sort 1 and Sort 3, which makes sense because
+its upper and lower bounds are n log n, compared
+to n^2 or n.
+
+sort3 uses: selection sort
+
+How do you know?: It's the last choice left, but the
+reasoning is the same as it is for Bubble Sort. Looking
+at the already sorted arrays, Sort 3 is slower reflecting its
+Ω(n^2) compared to Bubble Sort's Ω(n).
